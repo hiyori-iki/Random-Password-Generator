@@ -11,10 +11,6 @@
     src: url(CooperHewitt-Bold.otf);
 }
 @font-face {
-    font-family: 'Merriweather';
-    src: url(MerriweatherSans-Bold.otf);
-}
-@font-face {
     font-family: 'Inter';
     src: url(Inter-VariableFont_slnt\,wght.ttf);
 }
@@ -70,13 +66,44 @@ button{
     letter-spacing: -0.025em;
     color:whitesmoke;
 }
-button::after{
-    margin-top: 50px;
-    border-bottom: 7px solid black;
-}
 hr{
-    margin-top: 30px;
-    width: 500px;
-    height: 0px;
-    color: #10B981;
+    height: 1px;
+    border: 0;
+    width: 85%;
+    margin-top: 37px;
+    background: rgba(11, 79, 195, 0.37);
+}
+.container {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+}
+#Password1{
+    background-color: #283548;
+    height: 30px;
+    width: 235px;
+    border-radius: 5px;
+    padding-top: 14px;
+    background: rgba(2, 48, 128, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+   font-family:sans-serif;
+   letter-spacing: 0.05em;
+   color: #4ADF86;
+}
+#Password2{
+    
+    background-color: #283548;
+    height: 30px;
+    width: 235px;
+    border-radius: 5px;
+    padding-top: 14px;
+    background: rgba(2, 48, 128, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+    font-family: sans-serif;
+    letter-spacing: 0.05em;
+    color: #4ADF86;
 }
