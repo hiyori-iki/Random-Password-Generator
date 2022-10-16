@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Karla';
+    src: url(karla.bold.ttf);
+}
+@font-face {
+    font-family: 'league spartan';
+    src: url(LeagueSpartan-Bold.otf);
+}
+@font-face {
+    font-family: 'Cooper';
+    src: url(CooperHewitt-Bold.otf);
+}
+@font-face {
+    font-family: 'Merriweather';
+    src: url(MerriweatherSans-Bold.otf);
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
+}
+body{
+    background-color: rgb(3, 3, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    align-content: center;
+    position: relative;
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+    margin-top: 90px;
+    background: rgba(11, 79, 195, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(11, 79, 195, 0.37);    
+    
+}
+h1{
+    margin-left: 45px;
+    color: aliceblue;
+    font-family: 'Cooper';
+    font-size: 32px;
+    margin-top: 70px;
+    word-spacing: 0.035em;
+}
+#secondLine{
+    color: #4ADF86;
+    margin-top: -25px;
+}
+p{
+    margin-left: 45px;
+    color: #bebec0;
+    font-family: 'Inter';
+    letter-spacing: -0.025em;
+}
+button{
+    background-color:  #10B981;
+    margin-left: 45px;
+    border-radius: 5px;
+    margin-top: 46px;
+    height: 35px;
+    width: 185px;
+    border: none;
+    font-size: 15.5px;
+    font-family: 'Inter';
+    letter-spacing: -0.025em;
+    color:whitesmoke;
+}
+button::after{
+    margin-top: 50px;
+    border-bottom: 7px solid black;
+}
+hr{
+    margin-top: 30px;
+    width: 500px;
+    height: 0px;
+    color: #10B981;
+}
