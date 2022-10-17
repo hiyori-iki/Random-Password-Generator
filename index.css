@@ -65,6 +65,7 @@ p{
     font-family: 'Inter';
     letter-spacing: -0.025em;
     color:whitesmoke;
+    cursor: pointer;
 }
 hr{
     height: 1px;
@@ -111,7 +112,7 @@ hr{
     background: transparent;
     margin-left: 45px;
     border: none;
-    cursor: grabbing;
+    cursor: pointer;
     color: #4ADF86;
     margin-right: 81px;
     text-decoration: underline;
@@ -121,7 +122,7 @@ hr{
     background: transparent;
     margin-left: 45px;
     border: none;
-    cursor: grabbing;
+    cursor: pointer;
     color: #4ADF86;
     margin-right: 115px;
     font-size: 15px;
