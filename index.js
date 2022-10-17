@@ -2,7 +2,10 @@ const characters =["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","
 "/"];
 let passwordEl1=document.getElementById("Password1")
 let passwordEl2=document.getElementById("Password2")
+const text=document.getElementById("copy-el")
+const text2=document.getElementById("copy-el2")
 let length=characters.length
+let includeNumber=true
 function generatePassword()
 {
   let generatedPassword1=""
@@ -17,4 +20,33 @@ function generatePassword()
   passwordEl1.innerText=generatedPassword1
   passwordEl2.innerText=generatedPassword2
 }
-
+text.addEventListener('click',()=>{
+ copyPassword1()
+})
+text2.addEventListener('click',()=>{
+  copyPassword2()
+})
+function copyPassword1()
+{
+  const textarea=document.createElement('textarea')
+  textarea.setAttribute('readonly','');
+  textarea.style.position='absolute';
+  textarea.value=passwordEl1.innerText;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  console.log("clicked")
+  document.body.removeChild(textarea)
+}
+function copyPassword2()
+{
+  const textarea=document.createElement('textarea')
+  textarea.setAttribute('readonly','');
+  textarea.style.position='absolute';
+  textarea.value=passwordEl2.innerText;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  console.log("clicked")
+  document.body.removeChild(textarea)
+}

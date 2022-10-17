@@ -13,11 +13,13 @@
             <h1>Generate a</h1>
             <h1 id="secondLine">random password</h1>
             <p>Never use an insecure password again.</p>
-            <button onclick="generatePassword()">Generate Passwords</button>
+            <button id="generator-el"onclick="generatePassword()">Generate Passwords</button>
             <hr>
             <div class="container">
-                <p id="Password1" onclick="copyToClipboard()"></p> <p id="Password2"></p>
+                <p id="Password1"></p>
+                <p id="Password2"></p>
             </div>
+            <button id="copy-el">📋Copy to clipboard</button> <button id="copy-el2">📋Copy to clipboard</button>
             <script src="index.js"></script>
         </div>
     </body>

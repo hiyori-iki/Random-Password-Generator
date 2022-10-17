@@ -53,7 +53,7 @@ p{
     font-family: 'Inter';
     letter-spacing: -0.025em;
 }
-button{
+#generator-el{
     background-color:  #10B981;
     margin-left: 45px;
     border-radius: 5px;
@@ -107,3 +107,25 @@ hr{
     letter-spacing: 0.05em;
     color: #4ADF86;
 }
+#copy-el{
+    background: transparent;
+    margin-left: 45px;
+    border: none;
+    cursor: grabbing;
+    color: #bebec0;
+    margin-right: 75px;
+    text-decoration: underline;
+    font-size: 15px;
+}
+#copy-el2{
+    background: transparent;
+    margin-left: 45px;
+    border: none;
+    cursor: grabbing;
+    color: #4ADF86;
+    margin-right: 115px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+
