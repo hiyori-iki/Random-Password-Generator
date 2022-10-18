@@ -5,7 +5,6 @@ let passwordEl2=document.getElementById("Password2")
 const text=document.getElementById("copy-el")
 const text2=document.getElementById("copy-el2")
 let length=characters.length
-let includeNumber=true
 function generatePassword()
 {
   let generatedPassword1=""
